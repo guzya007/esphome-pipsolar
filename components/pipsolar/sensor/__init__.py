@@ -319,7 +319,7 @@ TYPES = {
     CONF_TOTAL_AC_OUTPUT_APPARENT_POWER: sensor.sensor_schema(
         unit_of_measurement=UNIT_VOLT_AMPS,
         accuracy_decimals=0,
-    ), 
+    ),
     CONF_TOTAL_AC_OUTPUT_ACTIVE_POWER: sensor.sensor_schema(
         unit_of_measurement=UNIT_WATT,
         accuracy_decimals=0,

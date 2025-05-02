@@ -1,3 +1,9 @@
+# Notice
+
+This fork is for support LV2424 inverter. This is merge of `pi18` branch of `syssi/esphome-pipsolar` repo and `esphome-P18` branch of `uploader18/esphome-pipsolar_fix` repo.
+
+It fixes incorrect protocal used in `syssi` repo and incorrect unit used in `uploader18` repo.
+
 # esphome-pipsolar
 
 ![GitHub actions](https://github.com/syssi/esphome-pipsolar/actions/workflows/ci.yaml/badge.svg)
