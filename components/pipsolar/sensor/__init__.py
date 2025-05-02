@@ -316,11 +316,10 @@ TYPES = {
         device_class=DEVICE_CLASS_ENERGY,
         state_class=STATE_CLASS_TOTAL_INCREASING,
     ),
-    # for all in parallel
     CONF_TOTAL_AC_OUTPUT_APPARENT_POWER: sensor.sensor_schema(
         unit_of_measurement=UNIT_VOLT_AMPS,
         accuracy_decimals=0,
-    ),
+    ), 
     CONF_TOTAL_AC_OUTPUT_ACTIVE_POWER: sensor.sensor_schema(
         unit_of_measurement=UNIT_WATT,
         accuracy_decimals=0,
